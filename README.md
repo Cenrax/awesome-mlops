@@ -64,6 +64,9 @@
 1. [E-Book "Practical MLOps. How to Get Ready for Production Models"](https://valohai.com/mlops-ebook/)
 1. ["Introducing MLOps" by Mark Treveil, et al. O'Reilly Media, Inc. 2020](https://learning.oreilly.com/library/view/introducing-mlops/9781492083283/)
 1. ["Machine Learning for Data Streams with Practical Examples in MOA", Bifet, Albert and Gavald\`a, Ricard and Holmes, Geoff and Pfahringer, Bernhard, MIT Press, 2018](https://moa.cms.waikato.ac.nz/book/)
+1. ["Machine Learning Product Manual" by Laszlo Sragner, Chris Kelly](https://machinelearningproductmanual.com/)
+1. ["Data Science Bootstrap Notes" by Eric J. Ma](https://ericmjl.github.io/data-science-bootstrap-notes/)
+1. ["Data Teams by Jesse Anderson, 2020"](https://www.datateams.io/)
 
 
 
@@ -160,7 +163,7 @@
 1. [Data Science Engineering at Shopify](https://shopify.engineering/topics/data-science-engineering)
 1. [Building state-of-the-art machine learning technology with efficient execution for the crypto economy](https://blog.coinbase.com/building-state-of-the-art-machine-learning-technology-with-efficient-execution-for-the-crypto-ad10896a48a)
 1. [Completing the Machine Learning Loop](https://jimmymwhitaker.medium.com/completing-the-machine-learning-loop-e03c784eaab4)
-
+1. [Deploying Machine Learning Models: A Checklist](https://twolodzko.github.io/ml-checklist) 
 
 
 <a name="feature-stores"></a>
@@ -259,6 +262,13 @@
 <a name="mlops-papers"></a>
 # MLOps Papers
 
+1. **(2021) Ease.ML: a lifecycle management system for MLDev and MLOps.** This paper presents a system for managing and automating the entire lifecycle of machine learning application development. [Go to paper](https://www.research-collection.ethz.ch/handle/20.500.11850/458916)
+1. **(2021) Challenges in deploying machine learning: a survey of case studies.** This survey reviews published reports of deploying machine learning solutions in a variety of use cases, industries and applications and extracts practical considerations corresponding to stages of the machine learning deployment workflow. [Go to paper](https://arxiv.org/abs/2011.09926)
+1. **(2020) DevOps for AI - challenges in development of AI-enabled applications.** This paper points out the challenges in development of complex systems that include ML components, and discuss possible solutions driven by the combination of DevOps and ML workflow processes. Industrial cases are presented to illustrate these challenges and the possible solutions. [Go to paper](https://ieeexplore.ieee.org/abstract/document/9238323?casa_token=f5wqYYVhaiQAAAAA:rSCh5ui6KzXtcn81pPVqKsEM4GX5LYmMBjIRljD0NvQEcekH1NXBYZRFPfBQAextDTv9MI0Hpg)
+1. **(2020) MLModelCI: an automatic cloud platform for efficient MLaaS.** This paper presents MLModelCI, a one-step platform for efficient machine learning (ML) services that leverages DevOps techniques to optimize, test, and manage models. It also containerizes and deploys these optimized and validated models as cloud services. [Go to paper](https://dl.acm.org/doi/abs/10.1145/3394171.3414535)
+1. **(2019) Challenges in the deployment and operation of machine learning in practice.** In this work, the authors target to systematically elicit the challenges in deployment and operation to enable broader practical dissemination of machine learning applications. [Go to paper](https://aisel.aisnet.org/ecis2019_rp/163/)
+1. **(2018) On challenges in machine learning model management.** This paper discusses a selection of ML use cases, develops an overview over conceptual, engineering, and data-processing related challenges arising in the management of the
+corresponding ML models, and points out future research directions. [Go to paper](https://web.kaust.edu.sa/Faculty/MarcoCanini/classes/CS290E/F19/papers/challenges.pdf)
 1. [Studer, S., Bui, T.B., Drescher, C., Hanuschkin, A., Winkler, L., Peters, S. and Mueller, K.R., 2020. "Towards CRISP-ML (Q): A Machine Learning Process Model with Quality Assurance Methodology". arXiv](https://arxiv.org/pdf/2003.05155.pdf)
 1. [Building a Reproducible Machine Learning Pipeline](https://arxiv.org/ftp/arxiv/papers/1810/1810.04570.pdf)
 1. [A Systems Perspective to Reproducibility in Production Machine Learning Domain](https://openreview.net/pdf?id=Byl4vavigX)
@@ -302,11 +312,8 @@
 1. [Serban, A., van der Blom, K., Hoos, H. and Visser, J., 2020. Adoption and Effects of Software Engineering Best Practices in Machine Learning. arXiv preprint arXiv:2007.14130.](https://arxiv.org/pdf/2007.14130.pdf)
 1. [Gama, João, Indrė Žliobaitė, Albert Bifet, Mykola Pechenizkiy, and Abdelhamid Bouchachia. "A survey on concept drift adaptation." ACM computing surveys (CSUR) (2014)](http://eprints.bournemouth.ac.uk/22491/1/ACM%20computing%20surveys.pdf)
 1. [Belle, V. and Papantonis, I., 2020. Principles and Practice of Explainable Machine Learning. arXiv preprint arXiv:2009.11698.](https://arxiv.org/pdf/2009.11698.pdf)
-1. [H.Z. Zhang, Y.M. Li, Y.Z. Huang, Y.G. Wen, J.X. Yin, and K. Guan. 2020. MLModelCI: An Automatic Cloud Platform for Efficient MLaaS. In Proceedings of the 28th ACM International Conference on Multimedia (MM '20).](https://dl.acm.org/doi/abs/10.1145/3394171.3414535)
 1. [Karmarkar, A., Altay, A., Zaks, A., Polyzotis, N., Ramesh, A., Mathes, B., Vasudevan, G., Giannoumis, I., Wilkiewicz, J., Simsa, J. and Hong, J., 2020. **Towards ML Engineering**: A Brief History Of TensorFlow Extended (TFX). arXiv preprint arXiv:2010.02013.](https://arxiv.org/pdf/2010.02013.pdf)
 1. [Nazabal, A., Williams, C.K., Colavizza, G., Smith, C.R. and Williams, A., 2020. Data Engineering for Data Analytics: A Classification of the Issues, and Case Studies. arXiv preprint arXiv:2004.12929.](https://arxiv.org/pdf/2004.12929.pdf)
-1. [Aguilar, Leonel, David Dao, Shaoduo Gan, Nezihe Merve Gurel, Nora Hollenstein, Jiawei Jiang, Bojan Karlas et al. "Ease. ML: A Lifecycle Management System for MLDev and MLOps."](http://cidrdb.org/cidr2021/papers/cidr2021_paper26.pdf)
-
 
 
 <a name="talks-about-mlops"></a>
@@ -331,6 +338,7 @@
 1. [How ML Breaks: A Decade of Outages for One Large ML Pipeline](https://youtu.be/hBMHohkRgAA)
 1. [Clean Machine Learning Code: Practical Software Engineering](https://youtu.be/PEjTAJHxYPM)
 1. [Machine Learning Engineering: 10 Fundamentale Praktiken](https://www.youtube.com/watch?v=VYlXNWxqJ2A)
+1. [Architecture of machine learning systems (3-part series)](https://www.youtube.com/playlist?list=PLx8omXiw3n9y26FKZLV5ScyS52D_c29QN)
 
 
 <a name="existing-ml-systems"></a>
@@ -494,6 +502,7 @@
 1. Mitchell, Margaret and Wu, Simone and Zaldivar, Andrew and Barnes, Parker and Vasserman, Lucy and Hutchinson, Ben and Spitzer, Elena and Raji, Inioluwa Deborah and Gebru, Timnit. 
 1. ["Model Cards for Model Reporting"](https://arxiv.org/abs/1908.06165) (2019) - Code: [Model Card Toolkit](https://github.com/tensorflow/model-card-toolkit)
 1. [Navigate the road to Responsible AI – Gradient Flow Blog](https://gradientflow.com/navigate-the-road-to-responsible-ai/)
+1. [Machine Learning Systems: Security](https://sahbichaieb.com/mlsystems-security/)
 
 
 <a name="newsletters"></a>
@@ -523,5 +532,6 @@
 1. [featurestore.org: Monthly Newsletter on Feature Stores for ML](https://www.featurestore.org/)
 1. [DataTalks.Club Community: Slack, Newsletter, Podcast, Weeekly Events](https://datatalks.club/)
 1. [Machine Learning Ops Roundup](https://mlopsroundup.substack.com/)
+1. [Data Science Programming Newsletter by Eric Ma](https://dspn.substack.com/)
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/visenger?style=social)
